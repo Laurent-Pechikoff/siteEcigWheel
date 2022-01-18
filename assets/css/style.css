@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(20,20,20);
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+footer{
+    /* position: fixed; */
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    
+} 
+li{
+    list-style: none;
+    
+}
+.rangeProduit{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.beginning{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fabrication{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row-reverse; */
+}
+.fab{
+    margin: 10px 20px 10px 20px;
+}
+.intro{
+    text-align: center justify;
+}
+img{
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+}
+.card{
+    transition: transform .2s;
+    margin: 10px;
+}
+.card:hover{
+    transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 100;
+}
